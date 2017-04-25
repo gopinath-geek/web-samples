@@ -1,0 +1,15 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <a href="success.html" target="_parent" id="trigger_to_parent" style="display: none"></a>
+        
+        <script>
+            function triggerAnchor() {
+                var targetItem = document.getElementById('trigger_to_parent');
+                targetItem.click();
+            }
+            triggerAnchor();
+        </script>
+    </body>
+</html>
